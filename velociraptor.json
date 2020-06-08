@@ -1,0 +1,11 @@
+{
+  "allow": [
+    "net"
+  ],
+
+  "scripts": {
+    "init:deno": "deno types > deno.d.ts",
+    "start": "deno run index.ts",
+    "test": "deno test --allow-net server_test.ts"
+  }
+}
